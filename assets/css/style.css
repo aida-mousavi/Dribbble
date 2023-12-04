@@ -87,8 +87,7 @@ main .headerTitle h1 {
 }
 main .headerPerson .w-MovePerson {
   width: 100%;
-  -webkit-animation: movePerson 10s linear infinite alternate;
-          animation: movePerson 10s linear infinite alternate;
+  animation: movePerson 30s linear infinite alternate;
 }
 main .headerPerson .w-MovePerson > div {
   width: 270px;
@@ -193,43 +192,43 @@ main .qualityWorkLine2 video {
 }
 @media screen and (min-width: 450px) {
   main .qualityWorkLine1 img,
-main .qualityWorkLine1 video,
-main .qualityWorkLine2 img,
-main .qualityWorkLine2 video {
+  main .qualityWorkLine1 video,
+  main .qualityWorkLine2 img,
+  main .qualityWorkLine2 video {
     width: 350px;
     height: 250px;
   }
   main .qualityWorkLine1 img .qualityWorkLine2,
-main .qualityWorkLine1 video .qualityWorkLine2,
-main .qualityWorkLine2 img .qualityWorkLine2,
-main .qualityWorkLine2 video .qualityWorkLine2 {
+  main .qualityWorkLine1 video .qualityWorkLine2,
+  main .qualityWorkLine2 img .qualityWorkLine2,
+  main .qualityWorkLine2 video .qualityWorkLine2 {
     transform: translateX(-100px);
   }
   main .qualityWorkLine1 img .qualityWorkLine1,
-main .qualityWorkLine1 video .qualityWorkLine1,
-main .qualityWorkLine2 img .qualityWorkLine1,
-main .qualityWorkLine2 video .qualityWorkLine1 {
+  main .qualityWorkLine1 video .qualityWorkLine1,
+  main .qualityWorkLine2 img .qualityWorkLine1,
+  main .qualityWorkLine2 video .qualityWorkLine1 {
     transform: translateX(-300px);
   }
 }
 @media screen and (min-width: 2000px) {
   main .qualityWorkLine1 img,
-main .qualityWorkLine1 video,
-main .qualityWorkLine2 img,
-main .qualityWorkLine2 video {
+  main .qualityWorkLine1 video,
+  main .qualityWorkLine2 img,
+  main .qualityWorkLine2 video {
     width: 360px;
     height: 270px;
   }
   main .qualityWorkLine1 img .qualityWorkLine2,
-main .qualityWorkLine1 video .qualityWorkLine2,
-main .qualityWorkLine2 img .qualityWorkLine2,
-main .qualityWorkLine2 video .qualityWorkLine2 {
+  main .qualityWorkLine1 video .qualityWorkLine2,
+  main .qualityWorkLine2 img .qualityWorkLine2,
+  main .qualityWorkLine2 video .qualityWorkLine2 {
     transform: translateX(0);
   }
   main .qualityWorkLine1 img .qualityWorkLine1,
-main .qualityWorkLine1 video .qualityWorkLine1,
-main .qualityWorkLine2 img .qualityWorkLine1,
-main .qualityWorkLine2 video .qualityWorkLine1 {
+  main .qualityWorkLine1 video .qualityWorkLine1,
+  main .qualityWorkLine2 img .qualityWorkLine1,
+  main .qualityWorkLine2 video .qualityWorkLine1 {
     transform: translateX(0);
   }
 }
@@ -237,20 +236,9 @@ main footer .footer {
   height: 150px;
 }
 
-@-webkit-keyframes movePerson {
-  to {
-    transform: translateX(-105%);
-  }
-}
-
 @keyframes movePerson {
   to {
     transform: translateX(-105%);
-  }
-}
-@-webkit-keyframes fade {
-  to {
-    opacity: 1;
   }
 }
 @keyframes fade {
